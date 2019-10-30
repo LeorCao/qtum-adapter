@@ -1,4 +1,4 @@
-module github.com/Assetsadapter/qtum-adapter
+module github.com/LeorCao/qtum-adapter
 
 go 1.12
 
