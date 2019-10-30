@@ -2095,11 +2095,11 @@ func (wm *WalletManager) GetBalance() string {
 }
 
 //ImportAddress 导入地址核心钱包
-func (wm *WalletManager)  ImportAddress(address *openwallet.Address) error {
+func (wm *WalletManager) ImportAddress(address, account string) error {
 
 	request := []interface{}{
-		address.Address,
-		address.AccountID,
+		address,
+		account,
 		false,
 	}
 
