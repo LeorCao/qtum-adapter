@@ -10,7 +10,7 @@ openwtester包下的测试用例已经集成了openwallet钱包体系，创建co
 ```ini
 
 # RPC Server Type，0: CoreWallet RPC; 1: Explorer API
-rpcServerType = 1
+rpcServerType = 0
 # Qtum server url
 apiURL = "http://127.0.0.1:20007/qtum-insight-api/"
 # RPC Authentication Username
