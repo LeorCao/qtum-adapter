@@ -8,7 +8,8 @@ openwtester包下的测试用例已经集成了openwallet钱包体系，创建co
 
 
 ```ini
-
+# Is Scanning new block
+isScan = true
 # RPC Server Type，0: CoreWallet RPC; 1: Explorer API
 rpcServerType = 0
 # Qtum server url
